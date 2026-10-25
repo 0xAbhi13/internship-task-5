@@ -44,6 +44,17 @@ Run: `python -m pytest tests -v`
 4. **Accidental mass-replace** during patching corrupted test file (replaced every "T"); rewrote file cleanly, re-ran green.
 5. **CSRF helper after logout** — verified token refresh on `session.clear()` + re-login works; kept enforcement ON in tests.
 
+## Task 4 additions (Testing and QA)
+
+- Extended automated suite: `tests/test_edge.py` (46 tests).
+- Total automated tests: 59 (13 core + 46 extended). Result: 59 passed.
+- Lint: `ruff check .` -> All checks passed.
+- Defects fixed:
+  1. Invalid resume upload returned HTTP 400 with a redirect (fixed to 302).
+  2. Invalid status update returned HTTP 400 with a redirect (fixed to 302).
+  3. `valid_date()` broad exception narrowed to `ValueError`.
+  4. Import ordering and unused variables cleaned.
+
 ## Manual checks
 - Seeded twice: second run prints "exists, skip" for all rows (idempotent) — verified.
 - Student A cannot view student B's `/applications/<id>` by URL tampering (403) — automated + manually reasoned.
