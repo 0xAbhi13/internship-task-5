@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=PlacementPortal&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Student%20Internship%20%26%20Placement%20Management%20System&descAlignY=55&descSize=18" alt="header"/>
-
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=2563EB&center=true&vCenter=true&width=650&lines=Discover+internships+%F0%9F%94%8D;Track+every+application+%F0%9F%93%8A;Build+skills+%2B+resume+%F0%9F%9A%80;59%2F59+tests+passing+%E2%9C%85" alt="typing"/>
 
 <p>
@@ -16,7 +14,6 @@
 <img src="https://skillicons.dev/icons?i=python,flask,sqlite,html,css,js,pytest,git&theme=light" alt="stack"/>
 </p>
 
-**Separate, original project for Internship Task 3** — does NOT touch Task 2 (`student-attendance-system/`).
 
 </div>
 
@@ -24,7 +21,6 @@
 
 ## ✨ What it does
 
-> Sample listings are clearly labelled as training samples, not verified live vacancies.
 
 <details open>
 <summary><b>🔐 Auth & profiles</b></summary>
@@ -107,16 +103,6 @@ tests/  report/*.docx  screenshots/  README.md  ARCHITECTURE.md  TESTING.md
 | 👤 Profile + resume | `/profile` → `/resume` 🖨️ |
 | 🛠️ Admin | `/admin` · `/admin/users` · `/admin/applications` |
 | 📈 Reports + CSV | `/reports` → `/reports/export.csv` |
-
----
-
-## 🎬 Screenshots
-
-> Genuine captures go here — see [`screenshots/README.md`](screenshots/README.md) for steps. No fakes.
-
-| Landing | Dashboard | Discovery |
-|---------|-----------|-----------|
-| *coming soon* | *coming soon* | *coming soon* |
 
 ---
 
